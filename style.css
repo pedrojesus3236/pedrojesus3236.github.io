@@ -36,6 +36,19 @@ body {
 }
 /* End of Jumbotron */
 
+/* Skills */
+.skills div div h3 {
+    color: #F04E41;
+    font-size: 40px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.skills div div p {
+    color: #ffffff;
+    font-size: 25px;
+}
+/* End of Skills */
 
 /* Projects */
 #projects, #about, #contact {
@@ -88,7 +101,6 @@ body {
 @media (min-width: 990px) {
 
     .navbar ul li a:hover {
-        background-color: #F04E41;
         color: #ffffff;
         cursor: pointer;
     }
